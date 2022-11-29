@@ -1,0 +1,47 @@
+.techno{
+    max-width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    --gap: 120px;
+    --num--cols: 4;
+    --row--height: 70px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num--cols), 1fr);
+    grid-auto-rows: var(--row--height);
+    gap: var(--gap);
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    font-size: 35px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container img {
+    height: 120px;
+    width: 150px;
+    object-fit: contain;
+    
+}
+
+.container img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
