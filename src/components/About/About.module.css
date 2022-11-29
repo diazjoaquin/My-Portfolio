@@ -1,7 +1,7 @@
 .about {
     max-width: 100vw;
     margin: auto;
-    padding: 60px 15px;
+    padding: 60px 0;
     color: #ffff;
     display: flex;
     
@@ -24,11 +24,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 60px;
+    margin: 0 20px;
 }
 
 .title {
     font-size: 35px;
+    margin-bottom: 20px;
     font-family: 'DM Serif Display', serif;
     font-weight: bold;
     text-transform: uppercase;

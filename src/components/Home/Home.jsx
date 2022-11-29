@@ -1,11 +1,13 @@
 import React from 'react';
 import h from './Home.module.css';
 import CV from '../../Díaz-Joaquín.pdf';
-import './custom.css';
+import Nav from '../Nav/Nav.jsx';
+
 
 export default function Home () {
     return (
     <section className={h.Home}>
+        <Nav/>
         <div className={h.presentation}>
             <div className={h.container}>
                 <p className={h.welcome}>Welcome</p>

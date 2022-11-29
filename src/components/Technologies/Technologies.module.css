@@ -3,6 +3,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    padding: 60px 0;
 }
 
 .container {
@@ -27,7 +28,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }

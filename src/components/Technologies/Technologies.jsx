@@ -1,10 +1,12 @@
 import React from 'react';
+import Nav from '../Nav/Nav';
 import t from './Technologies.module.css'
 
 export default function Technologies () {
 
     return (
         <section className={t.techno}>
+            <Nav/>
             <div className={t.technologies}>
                 <h3 className={t.title}>TECHNOLOGIES</h3>
                 <div className={t.container}>

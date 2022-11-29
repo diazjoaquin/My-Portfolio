@@ -1,10 +1,12 @@
 import React from 'react';
 import a from './About.module.css';
+import Nav from '../Nav/Nav.jsx';
 
 export default function About () {
 
     return (
         <section id='about-me' className={a.about}>
+            <Nav/>
             <div className={a.imgcont}>
                 <img src='photoRoom.png' alt=''/>
             </div>
