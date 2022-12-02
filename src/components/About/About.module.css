@@ -1,13 +1,13 @@
 .about {
     max-width: 100vw;
+    height: 100vh;
     margin: auto;
     padding: 60px 0;
-    color: #ffff;
     display: flex;
-    
+    background-color: #0b0b0b;
 }
 
-.imgcont {
+/* .imgcont {
     max-width: 400px;
     margin-left: 60px;
 }
@@ -17,14 +17,15 @@
     width: 100%;
     width: 450px;
     border-radius: 20px;
-}
+} */
 
 .aboutme {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin: 0 20px;
+    margin-bottom: 90px;
 }
 
 .title {
@@ -33,14 +34,14 @@
     font-family: 'DM Serif Display', serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .description {
     width: 50%;
     font-size: 15px;
     line-height: 25px;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-bottom: 25px;
 }
 
@@ -97,4 +98,11 @@
    .about button:hover .icon {
     top: 0;
     opacity: 1;
+   }
+
+   .label {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff5f0;
    }

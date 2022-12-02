@@ -4,10 +4,11 @@
     display: flex;
     justify-content: center;
     padding: 60px 0;
+    background: #282525;
 }
 
 .container {
-    --gap: 120px;
+    --gap: 100px;
     --num--cols: 4;
     --row--height: 70px;
 
@@ -22,12 +23,22 @@
     align-content: center;
 }
 
+.img {
+    background-color: white;
+    height: 120px;
+    align-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
 .title {
     font-size: 35px;
     font-family: 'DM Serif Display', serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -35,14 +46,16 @@
 
 
 
-.container img {
+.img img {
     height: 120px;
-    width: 150px;
-    object-fit: contain;
+    width: 120px;
+    object-fit:scale-down;
+    filter: grayscale(1);
     
 }
 
 .container img:hover {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     cursor: pointer;
+    filter: grayscale(0);
 }

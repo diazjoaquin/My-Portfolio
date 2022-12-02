@@ -1,15 +1,16 @@
 import React from 'react';
 import a from './About.module.css';
 import Nav from '../Nav/Nav.jsx';
+import { Link } from 'react-router-dom';
 
 export default function About () {
 
     return (
         <section id='about-me' className={a.about}>
             <Nav/>
-            <div className={a.imgcont}>
+            {/* <div className={a.imgcont}>
                 <img src='photoRoom.png' alt=''/>
-            </div>
+            </div> */}
             <div className={a.aboutme}>
                 <p className={a.title}>About Me</p>
                 <p className={a.description}>I've a curious mind, and great passion and capacity to learn, I'm interested to understand the behavior of all the things, to accomplish the better results. I'm a person whit a lot of energy and initiative, and a great capacity to adapt to changes.
@@ -17,12 +18,14 @@ export default function About () {
     <p className={a.description}>My first contact with programation was about my early adolescence, when I enjoyed
      editing text in forums, using HTML.
     </p>
-        <button>
-            <span className={a.label}><a href='#projects'>My projects</a></span>
-            <span className={a.icon}>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
-            </span>
-        </button>
+        <Link to={'/projects'}>
+            <button>
+                <span className={a.label}>My projects</span>
+                <span className={a.icon}>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+                </span>
+            </button>
+        </Link>
             </div>
         </section>
     )

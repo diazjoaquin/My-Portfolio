@@ -2,6 +2,7 @@
     max-width: 100vw;
     margin: auto;
     padding: 60px 0;
+    background: #404040;
 }
 
 .title {
@@ -10,7 +11,7 @@
     font-family: 'DM Serif Display', serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -23,11 +24,12 @@
 }
 
 .project {
-    max-width: 600px;
+    max-width: 650px;
     border: 1px solid #000;
-    margin: 0 10px;
+    margin: 0;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .project img {
@@ -35,23 +37,34 @@
     height: 100%;
     filter: grayscale(1);
     object-fit: cover;
+    object-position: center;
     transition: .5s;
 }
 
 .project img:hover {
     filter: grayscale(0);
+    transform: scale(1.2);
 }
 
 .info {
     position: absolute;
-    left: 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
     color: #fff5f0;
     width: 100%;
     padding: 10px 0;
     opacity: 0;
     bottom: -40px;
     transition: .5s;
+}
+
+.info h4 {
+    padding: 0 25px;
+    text-align: center;
+}
+
+.info .icon{
+    font-size: 40px;
 }
 
 .info:hover {

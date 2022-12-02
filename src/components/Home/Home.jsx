@@ -14,11 +14,11 @@ export default function Home () {
                 <h2>I'm Joaquín Díaz,<span className={h.full}> Full Stack Web Developer</span></h2>
                 
             </div>
-            <button>
+            <button><a className={h.button} href={CV} download>
                 <span className={h.shadow}></span>
                 <span className={h.edge}></span>
-                <span className={h.front}><a className={h.button} href={CV} download>Download CV</a>
-                </span>
+                <span className={h.front}>Download CV
+                </span></a>
             </button>
         </div>
     </section>);

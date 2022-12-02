@@ -1,18 +1,19 @@
 .header {
-    background-color: #2f4858;
+    background-color: #0d0c0c;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 100;
 }
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 ul {
-    width: 600px;
+    width: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
