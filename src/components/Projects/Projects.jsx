@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
 import p from './Projects.module.css';
-import { AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineRightCircle } from "react-icons/ai";
 
 export default function Projects () {
     return (
@@ -15,6 +15,7 @@ export default function Projects () {
                     <div className={p.info}>
                         <h4>Project from Henry Bootcamp: A SPA (Single Page Application) where you can find your favourites pokemons, and create your own pokemons. Technologies used: React.js, Redux, Sequelize, Node.js and PostgreSQL.</h4>
                         <a className={p.icon} href='https://github.com/diazjoaquin/IP-Pokemon'><AiOutlineGithub/></a>
+                        <a className={p.icon} href='https://my-pokedex-ip.web.app/'><AiOutlineRightCircle/></a>
                         {/* <a href=''></a> */}
                     </div>
                 </div>
