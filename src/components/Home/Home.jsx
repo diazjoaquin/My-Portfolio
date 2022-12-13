@@ -1,6 +1,6 @@
 import React from 'react';
 import h from './Home.module.css';
-import CV from '../../Díaz-Joaquín.pdf';
+import CV from '../../Díaz Joaquín - Full Stack Web Dev.pdf';
 import Nav from '../Nav/Nav.jsx';
 
 
