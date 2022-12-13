@@ -13,7 +13,7 @@ export default function About () {
             </div> */}
             <div className={a.aboutme}>
                 <p className={a.title}>About Me</p>
-                <p className={a.description}>I've a curious mind, and great passion and capacity to learn, I'm interested to understand the behavior of all the things, to accomplish the better results. I'm a person whit a lot of energy and initiative, and a great capacity to adapt to changes.
+                <p className={a.description}>I've a curious mind, and great passion and capacity to learn, I'm interested in understand the behavior of all things, to accomplish the better results. I'm a person whit a lot of energy and initiative, and a great capacity to adapt to changes.
     Capable of perform effectively both in group enviroments and in individual enviroments.</p>
     <p className={a.description}>My first contact with programation was about my early adolescence, when I enjoyed
      editing text in forums, using HTML.
