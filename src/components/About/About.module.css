@@ -4,20 +4,8 @@
     margin: auto;
     padding: 60px 0;
     display: flex;
-    background-color: #0b0b0b;
+    background-image: linear-gradient(to left top, #b05ec2, #aa59bc, #a453b7, #9f4eb1, #9949ac, #8f41a3, #863a99, #7c3290, #6c2680, #5c1a71, #4d0d62, #3e0053);
 }
-
-/* .imgcont {
-    max-width: 400px;
-    margin-left: 60px;
-}
-
-.imgcont img {
-    padding: 80px;
-    width: 100%;
-    width: 450px;
-    border-radius: 20px;
-} */
 
 .aboutme {
     display: flex;

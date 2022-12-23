@@ -8,7 +8,7 @@
     justify-content: center;
     padding: 10px 50px;
     /* background-color: #b62a8f; */
-    background: linear-gradient(rgba(0,0,0,.12), rgba(0,0,0,.7)), url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: linear-gradient(to left, #b05ec2, #aa59bc, #a453b7, #9f4eb1, #9949ac, #8f41a3, #863a99, #7c3290, #6c2680, #5c1a71, #4d0d62, #3e0053);
     background-size: cover;
     background-position: center;
 }
@@ -16,18 +16,6 @@
 .presentation {
     font-size: 30px;
     text-align: center;
-}
-
-.imgcont { 
-    max-width: 200px;
-    margin-right: 80px;
-}
-
-.imgcont img {
-    padding: 20px;
-    width: 100%;
-    width: 200px;
-    border-radius: 20px;
 }
 
 .full {
@@ -45,21 +33,19 @@
 
 }
 
-/* .button {
-    text-decoration: none;
-    display: inline-block;
-    margin: 25px;
-    background-color: #005AFF;
-    border-radius: 25px;
-    border: 2px solid #fff;
-    padding: 15px 25px;
-    font-weight: bold;
-    text-transform: uppercase;
+
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.button:hover {
-    background-color: #ff0000;
-} */
+.svg {
+    width: 400px;
+    margin: 0 40px;
+}
 
 button {
     position: relative;

@@ -3,14 +3,8 @@ import x from './Nav.module.css';
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
-// AiOutlineBars
-
-
 
 export default function Nav () {
-
-    
-
 
     return (
         <div className={x.header}>
