@@ -25,11 +25,12 @@ export default function Projects () {
                     <div className={p.overlay}></div>
                     <img src='easylearning.png' alt=''/>
                     <div className={p.info}>
-                    <h4>E-learning is a platform where the user can buy, create and sell their own courses.
-                    The following technologies were used: JavaScript, React.js, Redux, Node.js,
-                    PostgreSQL, Sequelize, Express.js, Chakra UI.
-                    </h4>
-                    <a className={p.icon} href='https://github.com/diazjoaquin/EasyLearning-FP'><AiOutlineGithub/></a>                
+                        <h4>E-learning is a platform where the user can buy, create and sell their own courses.
+                        The following technologies were used: JavaScript, React.js, Redux, Node.js,
+                        PostgreSQL, Sequelize, Express.js, Chakra UI.
+                        </h4>
+                        <a className={p.icon} href='https://github.com/diazjoaquin/EasyLearning-FP'><AiOutlineGithub/></a>
+                        <a className={p.icon} href='https://easylearning-fp.web.app/'><AiOutlineRightCircle/></a>         
                     </div>
                 </div>
             </div>
