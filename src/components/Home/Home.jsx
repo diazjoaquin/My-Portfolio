@@ -13,7 +13,7 @@ export default function Home () {
                 <div className={h.text}>
                 <p className={h.welcome}>Welcome</p>
                 <h2>I'm Joaquín Díaz,<span className={h.full}> Full Stack Web Developer</span></h2></div>
-                <img src="dev.svg" className={h.svg}/>
+                <img src="dev.svg" className={h.svg} alt='img'/>
             </div>
             <button><a className={h.button} href={CV} download>
                 <span className={h.shadow}></span>
