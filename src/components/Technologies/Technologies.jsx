@@ -22,6 +22,10 @@ export default function Technologies () {
                     <div className={t.img}><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png' alt='TYPESCRIPT'/></div>
                     <div className={t.img}><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/640px-Bootstrap_logo.svg.png' alt='BOOTSTRAP'/></div>
                     <div className={t.img}><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Figma-1-logo.png/640px-Figma-1-logo.png' alt='FIGMA'/></div>
+                    <div className={t.img}><img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Touchicon-180.png" alt="FIREBASE" /></div>
+                    <div className={t.img}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/640px-Vue.png" alt="VUE" /></div>
+                    <div className={t.img}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/640px-MongoDB_Logo.svg.png" alt="MONGO.DB" /></div>
+                    <div className={t.img}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/640px-Tailwind_CSS_Logo.svg.png" alt="TAILWIND" /></div>
                 </div>
             </div>
         </section>

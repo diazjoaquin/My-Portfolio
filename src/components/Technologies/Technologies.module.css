@@ -20,7 +20,7 @@
     grid-auto-rows: var(--row--height);
     gap: var(--gap);
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .img {
