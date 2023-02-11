@@ -18,7 +18,8 @@ export default function Nav () {
                     <li>TECHNOLOGIES</li></Link>
                     <Link to={'/projects'}>
                     <li>PROJECTS</li></Link>
-                    <li><a href='https://www.linkedin.com/in/joaqu%C3%ADn-d%C3%ADaz-b004b31a7/'>CONTACT ME</a></li>
+                    <Link to={'/contact'}>
+                    <li>CONTACT ME</li></Link>
                 </ul>
             <div className={x.redes}>
                 <a className={x.icon} href='https://www.linkedin.com/in/joaqu%C3%ADn-d%C3%ADaz-b004b31a7/'><AiFillLinkedin/></a>
