@@ -3,10 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e5e5f7;
+    background-color: #1d117c;
     opacity: 0.8;
-    background-image: radial-gradient(#f74545 2px, #e5e5f7 2px);
-    background-size: 40px 40px;
+    background-image: radial-gradient(#fdfdff 1.05px, #1d117c 1.05px);
+    background-size: 21px 21px;
 }
 
 .title {

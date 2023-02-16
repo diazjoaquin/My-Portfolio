@@ -8,19 +8,20 @@ export default function About () {
     return (
         <section id='about-me' className={a.about}>
             <Nav/>
+            
             {/* <div className={a.imgcont}>
                 <img src='photoRoom.png' alt=''/>
             </div> */}
             <div className={a.aboutme}>
                 <p className={a.title}>About Me</p>
                 <p className={a.description}>I've a curious mind, and great passion and capacity to learn, I'm interested in understand the behavior of everything, to accomplish the better results. I'm a person whit a lot of energy and initiative, and a great capacity to adapt to changes.
-    Capable of perform effectively both in group enviroments and in individual enviroments.</p>
-    <p className={a.description}>I´ve strong experience in front-end development using technologies such as React,
-as well as back-end development using Node.js. I have also worked with databases
-like MongoDB and PostgreSQL to build full-stack applications.
-    </p>
-    <p className={a.description}>As a Full Stack Web Developer, I am excited about the opportunity to work with a company that values
-innovation and creativity in technology, in wich I can improve my programming skills and knowledge.</p>
+                Capable of perform effectively both in group enviroments and in individual enviroments.</p>
+                <p className={a.description}>I´ve strong experience in front-end development using technologies such as React,
+                as well as back-end development using Node.js. I have also worked with databases
+                like MongoDB and PostgreSQL to build full-stack applications.
+                </p>
+                <p className={a.description}>As a Full Stack Web Developer, I am excited about the opportunity to work with a company that values
+                innovation and creativity in technology, in wich I can improve my programming skills and knowledge.</p>
         <Link to={'/projects'}>
             <button>
                 <span className={a.label}>My projects</span>
@@ -33,7 +34,3 @@ innovation and creativity in technology, in wich I can improve my programming sk
         </section>
     )
 }
-
-    // Con una mente muy curiosa, y una gran pasión y capacidad para el aprendizaje. Me interesa entender el funcionamiento de las cosas, para así lograr los mejores resultados.
-    //       Mi primer contacto con la programación fue durante mi temprana adolesencia, en donde me divertía editanto textos en foros, usando HTML.
-    //       Soy una persona con mucha energía e iniciativa. Con una gran capacidad para adaptarme a los cambios. Capaz de desempeñarme de manera efectiva tanto en entornos grupales, como así también en entornos individuales.

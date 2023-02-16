@@ -7,10 +7,10 @@
     align-items: center;
     justify-content: center;
     padding: 10px 50px;
-    /* background-color: #b62a8f; */
-    background-image: linear-gradient(to left, #b05ec2, #aa59bc, #a453b7, #9f4eb1, #9949ac, #8f41a3, #863a99, #7c3290, #6c2680, #5c1a71, #4d0d62, #3e0053);
-    background-size: cover;
-    background-position: center;
+    background-color: #1d117c;
+    opacity: 0.8;
+    background-image: radial-gradient(#fdfdff 1.05px, #1d117c 1.05px);
+    background-size: 21px 21px;
 }
 
 .presentation {

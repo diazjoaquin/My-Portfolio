@@ -4,8 +4,12 @@
     display: flex;
     justify-content: center;
     padding: 60px 0;
-    background-image: linear-gradient(to right, #b05ec2, #9f4eb1, #8f3fa1, #7e2f91, #6e1e81, #651578, #5b0b6f, #520166, #4d0161, #48015c, #430058, #3e0053);
+    background-color: #1d117c;
+    opacity: 0.8;
+    background-image: radial-gradient(#fdfdff 1.05px, #1d117c 1.05px);
+    background-size: 21px 21px;
 }
+
 
 .container {
     --gap: 100px;
@@ -38,7 +42,7 @@
     font-family: 'DM Serif Display', serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
