@@ -26,7 +26,7 @@ export default function Projects () {
                         <div className={p.overlay}></div>
                         <img src='easylearning.png' alt=''/>
                         <div className={p.info}>
-                            <h4>E-learning is a platform where the user can buy, create and sell their own courses.
+                            <h4>Easylearning is a E-learning platform where the user can buy, create and sell their own courses.
                             The following technologies were used: JavaScript, React.js, Redux, Node.js,
                             PostgreSQL, Sequelize, Express.js, Chakra UI.
                             </h4>
@@ -34,24 +34,30 @@ export default function Projects () {
                             <a className={p.icon} href='https://easylearning-fp.web.app/'><AiOutlineRightCircle/></a>         
                         </div>
                     </div>
+                    <div className={p.project}>
+                        <div className={p.overlay}></div>
+                        <img src='admin.png' alt=''/>
+                        <div className={p.info}>
+                            <h4>Admin Dashboard for EasyLearning App. Admins can manage registered users, purchase and sale of courses, created courses, and comments.
+                            The following technologies were used: Javascript, React.js, Material UI, CSS, HTML. 
+                            </h4>
+                            <a className={p.icon} href='https://github.com/diazjoaquin/Admin-EasyLearning'><AiOutlineGithub/></a>
+                            <a className={p.icon} href='https://easylearning-admin.web.app/'><AiOutlineRightCircle/></a>         
+                        </div>
+                    </div>
+                    {/* <div className={p.project}>
+                        <div className={p.overlay}></div>
+                        <img src='admin.png' alt=''/>
+                        <div className={p.info}>
+                            <h4>Realtime Chat App (Developing). Where the user, who should be logged, can chat whit other users in real time.
+                            The following technologies were used: Typescript, React, SASS, HTML, Firebase.
+                            </h4>
+                            <a className={p.icon} href='https://github.com/diazjoaquin/Admin-EasyLearning'><AiOutlineGithub/></a>
+                            <a className={p.icon} href='https://easylearning-admin.web.app/'><AiOutlineRightCircle/></a>         
+                        </div>
+                    </div> */}
                 </div>
             </div>
-            {/* <div className={p.fila}>
-                <div className={p.project}>
-                    <div className={p.overlay}></div>
-                    <img src='1.jpg' alt=''/>
-                    <div className={p.info}>
-                    <h4>Project Description</h4>
-                    </div>
-                </div>
-                <div className={p.project}>
-                    <div className={p.overlay}></div>
-                    <img src='1.jpg' alt=''/>
-                    <div className={p.info}>
-                    <h4>Project Description</h4>
-                    </div>
-                </div>
-            </div> */}
         </section>
         
     )
