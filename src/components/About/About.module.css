@@ -1,6 +1,6 @@
 .about {
-    max-width: 100vw;
-    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
     margin: auto;
     padding: 60px 0;
     display: flex;
@@ -98,3 +98,5 @@
     font-weight: 600;
     color: #fff5f0;
    }
+
+   
