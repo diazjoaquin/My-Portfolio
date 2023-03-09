@@ -45,17 +45,6 @@ export default function Projects () {
                             <a className={p.icon} href='https://easylearning-admin.web.app/'><AiOutlineRightCircle/></a>         
                         </div>
                     </div>
-                    {/* <div className={p.project}>
-                        <div className={p.overlay}></div>
-                        <img src='admin.png' alt=''/>
-                        <div className={p.info}>
-                            <h4>Realtime Chat App (Developing). Where the user, who should be logged, can chat whit other users in real time.
-                            The following technologies were used: Typescript, React, SASS, HTML, Firebase.
-                            </h4>
-                            <a className={p.icon} href='https://github.com/diazjoaquin/Admin-EasyLearning'><AiOutlineGithub/></a>
-                            <a className={p.icon} href='https://easylearning-admin.web.app/'><AiOutlineRightCircle/></a>         
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </section>
