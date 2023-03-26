@@ -45,6 +45,16 @@ export default function Projects () {
                             <a className={p.icon} href='https://easylearning-admin.web.app/'><AiOutlineRightCircle/></a>         
                         </div>
                     </div>
+                    <div className={p.project}>
+                        <div className={p.overlay}></div>
+                        <img src='weather-app.png' alt=''/>
+                        <div className={p.info}>
+                            <h4>Weather app where the user can check the weather in any city of the world. The following technologies were used: Javascript, React.js, CSS, HTML.
+                            </h4>
+                            <a className={p.icon} href='https://github.com/diazjoaquin/Weather-App'><AiOutlineGithub/></a>
+                            <a className={p.icon} href='https://weather-app-six-gold.vercel.app/'><AiOutlineRightCircle/></a>         
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
