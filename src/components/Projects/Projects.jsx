@@ -49,10 +49,20 @@ export default function Projects () {
                         <div className={p.overlay}></div>
                         <img src='weather-app.png' alt=''/>
                         <div className={p.info}>
-                            <h4>Weather app where the user can check the weather in any city of the world. The following technologies were used: Javascript, React.js, CSS, HTML.
+                            <h4>Weather app that provides users with up-to-date information about the weather conditions in a particular location or region. It use data from weather stations, satellites, and other sources to provide real-time or forecasted information about temperature, humidity, wind speed, precipitation, and other weather-related variables.. The following technologies were used: Javascript, React.js, CSS, HTML.
                             </h4>
                             <a className={p.icon} href='https://github.com/diazjoaquin/Weather-App'><AiOutlineGithub/></a>
-                            <a className={p.icon} href='https://weather-app-six-gold.vercel.app/'><AiOutlineRightCircle/></a>         
+                            {/* <a className={p.icon} href='https://weather-app-six-gold.vercel.app/'><AiOutlineRightCircle/></a>*/}
+                        </div>
+                    </div>
+                    <div className={p.project}>
+                        <div className={p.overlay}></div>
+                        <img src='todo.png' alt=''/>
+                        <div className={p.info}>
+                            <h4>To do app designed to help the user to manage their task and activities. The app allows users to create task lists and track progress towards completing tasks. The following technologies were used: Javascript, React.js, CSS, HTML.
+                            </h4>
+                            <a className={p.icon} href='https://github.com/diazjoaquin/ToDoApp'><AiOutlineGithub/></a>
+                            {/* <a className={p.icon} href='https://weather-app-six-gold.vercel.app/'><AiOutlineRightCircle/></a>*/}
                         </div>
                     </div>
                 </div>
