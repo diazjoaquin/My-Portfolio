@@ -10,6 +10,18 @@ export default function Projects () {
             <div className="container">
                 <h3 className={p.title}>MY PROJECTS</h3>
                 <div className={p.fila}>
+                <div className={p.project}>
+                        <div className={p.overlay}></div>
+                        <img src='netflix.png' alt=''/>
+                        <div className={p.info}>
+                            <h4>A Netflix clone (currently on development). 
+                            The primary goal was to create a user experience similar to Netflix, enabling users to sign up,
+                            search for and play movies and TV shows.
+                            The following technologies were used: Typescript, Next.js, Mongo.db, HTML, TailwindCSS</h4>
+                            <a className={p.icon} href='https://github.com/diazjoaquin/Netflix'><AiOutlineGithub/></a>
+                            {/* <a className={p.icon} href=''><AiOutlineRightCircle/></a> */}
+                        </div>
+                    </div>
                     <div className={p.project}>
                         <div className={p.overlay}></div>
                         <img src='pokemon.png' alt=''/>
